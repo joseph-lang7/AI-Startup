@@ -17,7 +17,7 @@ const DesktopNav = ({ setOpen, isOpen }: Props) => {
         <Link href="/" className="border rounded-lg border-white/15">
           <Logo />
         </Link>
-        <nav className="hidden xl:block">
+        <nav className="hidden lg:block">
           <ul className="flex gap-8 outline outline-white/15 outline-offset-4 px-10 py-2 rounded-xl h-[40px] items-center">
             {navItems.map((navItem) => (
               <li key={navItem.key} className="flex items-center gap-1">
@@ -41,7 +41,7 @@ const DesktopNav = ({ setOpen, isOpen }: Props) => {
             </div>
             <span className="text-sm">Join waitlist</span>
           </button>
-          <div className="text-white xl:hidden">
+          <div className="text-white lg:hidden">
             <Hamburger toggled={isOpen} toggle={setOpen} />
           </div>
         </div>
