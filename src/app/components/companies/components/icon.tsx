@@ -6,10 +6,9 @@ type Props = {
 
 const Icon = ({ logo }: Props) => {
   return (
-    <div className="border-2 border-white/15 text-[#9a999a] w-[175px] h-[98px] flex items-center justify-center rounded-md">
+    <div className="border-2 border-white/15 text-[#9a999a] w-[175px] h-[98px] lg:w-[235px] lg:h-[98px] flex items-center justify-center rounded-md">
       {logo}
     </div>
   );
 };
-
 export default Icon;
