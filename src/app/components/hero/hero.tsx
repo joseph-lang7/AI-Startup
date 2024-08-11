@@ -4,7 +4,6 @@ const Hero = () => {
   return (
     <section className="pt-[90px]">
       <div className="flex flex-col gap-5 relative">
-        <div className="h-[450px] w-[400px] rounded-full border fixed bottom-[250px] left-1/2 -translate-x-1/2 -z-10 opacity-10"></div>
         <div className="hidden md:block absolute inset-0 bg-gradient-to-t from-purple-500/50 to-purple-700/50 rounded-lg -z-10"></div>
         <div className="hidden md:block absolute inset-0 bg-gradient-to-r from-black via-purple-700/50 to-black rounded-lg -z-10"></div>
         <div className="hidden md:block absolute inset-0 bg-gradient-to-l from-black via-purple-700/50 to-black rounded-lg -z-10"></div>
@@ -31,13 +30,13 @@ const Hero = () => {
           <button className="bg-white text-black outline outline-white/15 outline-offset-8 rounded-lg h-[45px] w-[145px]">
             Start for free
           </button>
-          <div className="w-full h-full flex justify-center mb-20">
+          <div className="w-full h-full flex justify-center">
             <div className="relative">
               <div className="hidden md:inline-block h-[500px] w-[500px] rounded-full border absolute bottom-0 left-1/2 -translate-x-1/2 opacity-10 -z-10"></div>
               <div className="hidden md:inline-block h-[600px] w-[600px] rounded-full border border-dashed absolute bottom-0 left-1/2 -translate-x-1/2 opacity-10 -z-10"></div>
               <div className="hidden md:inline-block h-[700px] w-[700px] rounded-full border absolute bottom-0 left-1/2 -translate-x-1/2 opacity-10 -z-10">
                 <div className="h-[20px] w-[20px] rounded-full bg-transparent border absolute top-0 left-0 -translate-x-[-52px] -translate-y-[-140px]">
-                  <div className="h-[10px] w-[10px] rounded-full bg-transparent border absolute top-0 left-0 -translate-x-[-4px] -translate-y-[-4px]"></div>
+                  <div className="h-[10px] w-[10px] rounded-full bg-transparent border absolute top-0 left-0 -translate-x-[-2.8px] -translate-y-[-3.5px]"></div>
                 </div>
               </div>
               <div className="md:hidden absolute inset-0 bg-gradient-to-b from-purple-500 to-purple-700/80 rounded-lg blur-2xl -z-10"></div>
