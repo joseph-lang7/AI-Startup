@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <>
-      <MobileDropdown isOpen={isOpen} setOpen={() => setOpen(!isOpen)} />
+      <MobileDropdown isOpen={isOpen} toggle={() => setOpen(!isOpen)} />
       <DesktopNav isOpen={isOpen} setOpen={() => setOpen(!isOpen)} />
     </>
   );
