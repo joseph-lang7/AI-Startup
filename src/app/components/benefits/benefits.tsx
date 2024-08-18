@@ -3,13 +3,13 @@ import Benefit from "./components/benefit";
 const Benefits = () => {
   return (
     <section className="w-full h-auto bg-gradient-to-r from-[#190D2E] to-[#020103] border-[1px] border-white/15 py-[76px] text-white">
-      <div className="container mx-auto pl-[50px] pr-[18px]">
-        <div>
-          <h2 className="text-[26px] font-semibold mb-[40px]">
-            Elevate your SEO efforts.
-          </h2>
-        </div>
-        <div className="flex flex-col gap-[40px]">
+      <div className="container mx-auto pl-[50px] pr-[18px] md:px-[50px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[40px] xl:grid-cols-3">
+          <div className="md:col-span-2 xl:col-span-3">
+            <h2 className="text-[26px] font-semibold mb-[40px] md:text-[56px] max-w-[354px]">
+              Elevate your SEO efforts.
+            </h2>
+          </div>
           <Benefit
             icon="gauge"
             title="User-friendly dashboard"

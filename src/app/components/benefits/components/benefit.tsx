@@ -14,9 +14,9 @@ const Benefit = ({ icon, title, description, alt }: Props) => {
         <div>
           <Image src={`/icons/${icon}.svg`} height="16" width="16" alt={alt} />
         </div>
-        <p className="font-medium">{title}</p>
+        <p className="font-medium ">{title}</p>
       </div>
-      <p className="text-[#B3B3B3]">{description}</p>
+      <p className="text-[#B3B3B3] max-w-[260px]">{description}</p>
     </div>
   );
 };
