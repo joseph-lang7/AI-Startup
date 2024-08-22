@@ -52,7 +52,7 @@ const Hero = () => {
                     layout="responsive"
                     width={1120}
                     height={815}
-                    className="object-cover object-center"
+                    className="object-contain"
                   />
                 </div>
               </div>
