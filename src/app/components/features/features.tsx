@@ -3,8 +3,8 @@ import React from "react";
 
 const Features = () => {
   return (
-    <section className="px-3 py-[80px] w-full">
-      <div className="container mx-auto px-[50px]">
+    <section className=" py-[80px] w-full">
+      <div className="container mx-auto">
         <div>
           <div className="text-center text-white text-[26px] font-medium w-full flex justify-center">
             <h2 className="max-w-[550px]">
