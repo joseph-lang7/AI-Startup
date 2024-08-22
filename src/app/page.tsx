@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Hero from "./components/hero/hero";
 import Companies from "./components/companies/companies";
 import Features from "./components/features/features";
