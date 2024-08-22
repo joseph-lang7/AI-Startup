@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="hidden sm:block absolute inset-0 bg-gradient-to-r from-black via-purple-700/50 to-black rounded-lg -z-10"></div>
       <div className="hidden sm:block absolute inset-0 bg-gradient-to-l from-black via-purple-700/50 to-black rounded-lg -z-10"></div>
       <div className="hidden sm:block absolute inset-0 bg-gradient-to-b from-black via-purple-700/50 to-black rounded-lg -z-10"></div>
-      <div className="container mx-auto">
+      <div className="container mx-auto px-3">
         <div className="flex flex-col gap-5">
           <div className="flex justify-center">
             <div className="text-[#9855FF] outline outline-white/15 outline-offset-4 w-[291px] h-[42px] rounded-2xl text-[16px] flex items-center justify-center">
