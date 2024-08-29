@@ -2,8 +2,8 @@ import Image from "next/image";
 const OurClients = () => {
   return (
     <section>
-      <div className="py-[50px] container mx-auto">
-        <div className="text-white text-center flex flex-col items-center">
+      <div className="py-[50px] xl:container xl:mx-auto">
+        <div className="text-white text-center flex flex-col items-center overflow-hidden lg:mx-[90px]">
           <div className="max-w-[300px] w-full">
             <h2 className="font-medium text-[26px] md:text-[56px] pb-[10px]">
               Our clients
@@ -14,21 +14,21 @@ const OurClients = () => {
             </p>
           </div>
           <div className="w-full h-[300px] flex justify-center relative">
-            <div className="relative h-[320px] w-full flex justify-center items-center">
-              <div className="relative flex items-center w-[171px] h-full">
+            <div className="relative h-[320px] lg:h-[348px] w-full flex justify-center items-center">
+              <div className="relative flex items-center w-[170px] lg:w-[200px] h-full">
                 <div className="relative z-10">
                   <Image
                     src="/images/review-profile.png"
-                    width="171"
+                    width="200"
                     height="171"
                     alt="profile photo of customer"
                   />
                 </div>
                 <div className="absolute top-0 right-0 h-full w-[1px]">
-                  <div className="h-full bg-gradient-to-b from-transparent via-white to-transparent"></div>
+                  <div className="h-full bg-gradient-to-b from-transparent via-white/60 to-transparent"></div>
                 </div>
                 <div className="absolute top-0 left-0 h-full w-[1px]">
-                  <div className="h-full bg-gradient-to-t from-transparent via-white to-transparent"></div>
+                  <div className="h-full bg-gradient-to-t from-transparent via-white/60 to-transparent"></div>
                 </div>
               </div>
               <div className="w-[360px] hidden md:block pl-[30px]">
@@ -45,12 +45,12 @@ const OurClients = () => {
               </div>
               <div className="absolute bottom-[75px] w-full">
                 <div className="relative w-full h-[1px]">
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/60 to-transparent"></div>
                 </div>
               </div>
               <div className="absolute top-[75px] w-full">
                 <div className="relative w-full h-[1px]">
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/60 to-transparent"></div>
                 </div>
               </div>
             </div>
