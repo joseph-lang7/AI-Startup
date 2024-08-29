@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
-import { navItems } from "@/app/constants";
-import CaretDown from "../../../assets/caret-down.svg";
-import Logo from "../../../assets/logo.svg";
+import { navItems } from "@/data";
+import CaretDown from "../../../../public/icons/caret-down.svg";
+import Logo from "../../../../public/icons/logo.svg";
 import Hamburger from "hamburger-react";
 
 type Props = {

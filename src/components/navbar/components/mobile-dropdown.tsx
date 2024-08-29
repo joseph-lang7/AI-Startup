@@ -1,7 +1,7 @@
 import Hamburger from "hamburger-react";
 import React from "react";
-import Logo from "../../../assets/logo.svg";
-import { navItems } from "@/app/constants";
+import Logo from "../../../../public/icons/logo.svg";
+import { navItems } from "@/data";
 import Link from "next/link";
 type Props = {
   isOpen: boolean;
