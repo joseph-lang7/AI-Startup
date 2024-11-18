@@ -44,8 +44,8 @@ const Pricing = () => {
                 {billedYearly ? "$29/mo" : "$39/mo"}
               </div>
               <div className="w-full bg-white/20 h-[1px] my-3"></div>
-              {cardItems.slice(0, 4).map((feature) => (
-                <div className="flex gap-2 items-center">
+              {cardItems.slice(0, 4).map((feature, idx) => (
+                <div className="flex gap-2 items-center" key={idx}>
                   <span>
                     <Image
                       src="/icons/check-icon.svg"
@@ -81,8 +81,8 @@ const Pricing = () => {
                   {billedYearly ? "$79/mo" : "$89/mo"}
                 </div>
                 <div className="w-full bg-white/20 h-[1px] my-3"></div>
-                {cardItems.slice(0, 6).map((feature) => (
-                  <div className="flex gap-2 items-center">
+                {cardItems.slice(0, 6).map((feature, idx) => (
+                  <div className="flex gap-2 items-center" key={idx}>
                     <span>
                       <Image
                         src="/icons/check-icon.svg"
@@ -112,8 +112,8 @@ const Pricing = () => {
                 {billedYearly ? "$149/mo" : "$199/mo"}
               </div>
               <div className="w-full bg-white/20 h-[1px] my-3"></div>
-              {cardItems.map((feature) => (
-                <div className="flex gap-2 items-center">
+              {cardItems.map((feature, idx) => (
+                <div className="flex gap-2 items-center" key={idx}>
                   <span>
                     <Image
                       src="/icons/check-icon.svg"
