@@ -32,7 +32,7 @@ const OurClients = () => {
               <div className="w-[360px] hidden md:block pl-[30px]">
                 <p className="text-start pb-4 font-medium text-[20px]">
                   &quot;This product has completely transformed how I manage my
-                  projects and deadlines &quot;
+                  projects and deadlines&quot;
                 </p>
                 <div className="flex flex-col gap-1">
                   <p className="text-start">Talia Taylor</p>
@@ -56,7 +56,7 @@ const OurClients = () => {
           <div className="max-w-[340px] w-full block md:hidden">
             <p className="text-center pb-4 font-medium text-[20px]">
               &quot;This product has completely transformed how I manage my
-              projects and deadlines &quot;
+              projects and deadlines&quot;
             </p>
             <div className="flex flex-col gap-1">
               <p className="text-center">Talia Taylor</p>
