@@ -5,9 +5,7 @@ const OurClients = () => {
       <div className="py-[50px] xl:container xl:mx-auto">
         <div className="text-white text-center flex flex-col items-center overflow-hidden lg:mx-[90px]">
           <div className="max-w-[300px] w-full">
-            <h2 className="font-medium text-[26px] md:text-[56px] pb-[10px]">
-              Our clients
-            </h2>
+            <h2 className="section-title pb-[10px]">Our clients</h2>
             <p className="text-[18px] md:text-[20px]">
               Hear firsthand how our solutions have boosted online success for
               users like you.

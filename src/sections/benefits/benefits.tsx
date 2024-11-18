@@ -6,7 +6,7 @@ const Benefits = () => {
       <div className="container mx-auto pl-[50px] pr-[18px] md:px-[50px]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[40px] xl:grid-cols-3">
           <div className="md:col-span-2 xl:col-span-3">
-            <h2 className="text-[26px] font-semibold mb-[40px] md:text-[56px] max-w-[354px]">
+            <h2 className="section-title mb-[40px] max-w-[354px]">
               Elevate your SEO efforts.
             </h2>
           </div>

@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .section-title {
+    @apply font-medium text-[26px] md:text-[56px] text-white;
+  }
+  .pricing-card-title {
+    @apply font-medium text-[24px];
+  }
+}

@@ -5,3 +5,14 @@ export const navItems = [
   { label: "Blog", href: "/", key: 4 },
   { label: "Changelog", href: "/", key: 5 },
 ];
+
+export const cardItems = [
+  "Keyword Optimization",
+  "Automated meta tags",
+  "SEO Monitoring",
+  "Monthly reports",
+  "Content suggestions",
+  "Link optimization",
+  "Multi-user access",
+  "API integration",
+];
