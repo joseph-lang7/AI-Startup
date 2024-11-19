@@ -4,6 +4,7 @@ import Features from "../sections/features/features";
 import Benefits from "../sections/benefits/benefits";
 import OurClients from "../sections/our-clients/our-clients";
 import Pricing from "@/sections/pricing/pricing";
+import JoinWaitlist from "@/sections/join-waitlist/join-waitlist";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Benefits />
       <OurClients />
       <Pricing />
+        <JoinWaitlist />
     </>
   );
 }

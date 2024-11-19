@@ -7,7 +7,7 @@ const Pricing = () => {
   const [billedYearly, setBilledYearly] = useState(true);
   return (
     <section>
-      <div className="container mx-auto pl-[50px] pr-[18px] md:px-[50px]">
+      <div className="container mx-auto px-3 md:px-[50px]">
         <div className="flex flex-col items-center">
           <div className="flex flex-col items-center max-w-[300px]">
             <div className="section-title pb-[10px]">Pricing</div>
@@ -35,10 +35,11 @@ const Pricing = () => {
             <div className="text-white/70">Billed Yearly</div>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row gap-7 justify-center">
+        <div className="flex justify-center">
+        <div className="flex flex-col lg:flex-row gap-7 justify-between w-full lg:w-auto">
           {/* Starter Card */}
           <div className="flex flex-col items-center">
-            <div className="flex flex-col gap-5 border-[1px] border-white/20 rounded-md h-[600px] py-5 px-3 text-white w-[300px]">
+            <div className="flex flex-col gap-5 border-[1px] border-white/20 rounded-md h-[600px] py-5 px-3 text-white w-full lg:w-[300px]">
               <div className="pricing-card-title">Starter</div>
               <div className="text-white/70">
                 {billedYearly ? "$29/mo" : "$39/mo"}
@@ -68,7 +69,7 @@ const Pricing = () => {
           </div>
           {/* Pro Card */}
           <div className="flex flex-col items-center">
-            <div className="flex flex-col gap-5  border-[1px] border-white/20 rounded-md h-[600px] text-white w-[300px] relative">
+            <div className="flex flex-col gap-5  border-[1px] border-white/20 rounded-md h-[600px] text-white w-full lg:w-[300px] relative">
               <div className="absolute inset-0 bg-gradient-to-b from-purple-500 to-purple-700/80 rounded-lg blur-2xl -z-20 h-full"></div>
               <div className="h-full w-full bg-purple-500/10 absolute -z-10"></div>
               <div
@@ -106,7 +107,7 @@ const Pricing = () => {
           </div>
           {/* Business Card */}
           <div className="flex flex-col items-center">
-            <div className="flex flex-col gap-5 border-[1px] border-white/20 rounded-md h-[600px] py-5 px-3 text-white w-[300px]">
+            <div className="flex flex-col gap-5 border-[1px] border-white/20 rounded-md h-[600px] py-5 px-3 text-white w-full lg:w-[300px]">
               <div className="pricing-card-title">Business</div>
               <div className="text-white/70">
                 {billedYearly ? "$149/mo" : "$199/mo"}
@@ -135,6 +136,7 @@ const Pricing = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );
