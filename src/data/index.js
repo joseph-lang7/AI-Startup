@@ -16,3 +16,35 @@ export const cardItems = [
   "Multi-user access",
   "API integration",
 ];
+
+
+export const productFooterItems = [
+    "Features",
+    "Integration",
+    "Updates",
+    "FAQ",
+    "Pricing"
+]
+
+export const companyFooterItems = [
+    "About",
+    "Blog",
+    "Careers",
+    "Manifesto",
+    "Press",
+    "Contract"
+]
+
+export const resourcesFooterItems = [
+    "Examples",
+    "Community",
+    "Guides",
+    "Docs",
+    "Press",
+]
+
+export const legalFooterItems = [
+    "Privacy",
+    "Terms",
+    "Security"
+]
